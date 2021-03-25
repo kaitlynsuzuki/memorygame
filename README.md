@@ -40,8 +40,6 @@ The following **additional** features are implemented:
 
 
 ## Video Walkthrough
-
-- dark mode, different levels of difficulty, losing version
 ![](https://i.imgur.com/hWQcMPI.gif)  
 **Dark mode, losing message, and different difficulties**
 ![](https://i.imgur.com/irO86j5.gif)  
