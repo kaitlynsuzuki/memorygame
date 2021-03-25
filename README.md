@@ -41,25 +41,22 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-![](https://i.imgur.com/M1dOHM1.gif)
 - dark mode, different levels of difficulty, losing version
 ![](https://i.imgur.com/hWQcMPI.gif)
-- piano version
 ![](https://i.imgur.com/irO86j5.gif)
-- 3 strikes until the user loses
+![](https://i.imgur.com/irO86j5.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 https://www.w3schools.com/js/js_switch.asp
-https://coolors.co/ ">https://coolors.co/
+https://coolors.co/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 https://stackoverflow.com/questions/5898656/check-if-an-element-contains-a-class-in-javascript/5898748
 https://pages.mtu.edu/~suits/notefreqs.html
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-  * The biggest challenge I experienced throughout this process was managing the multiple difficulty levels. In my implementation of the game, the user can choose between the easy, medium, and hard versions, with the more difficult versions including more buttons, less time to play the sound, and a longer pattern.  The aspect of this that was hardest for me to manage, was the different difficulty states that displayed differing amounts of buttons and allowing for the user to toggle between the different levels. I utilized two switch statements that when given a new difficulty level would change which buttons included the hidden class, to change the visibility of the buttons. I then needed to text the buttons controlling the difficult levels to make sure it was possible to switch between all three levels, while maintaining the correct layout. The most difficult part was controlling the logic within the switch statement so I did not end up removing the hidden class from an element that did not currently have it.
+  * The biggest challenge I experienced throughout this process was managing the multiple difficulty levels. In my implementation of the game, the user can choose between the easy, medium, and hard versions, with the more difficult versions including more buttons, less time to play the sound, and a longer pattern.  The aspect of this that was hardest for me to manage, was the different difficulty states that displayed differing amounts of buttons and allowing for the user to toggle between the different levels. I utilized two switch statements that when given a new difficulty level would change which buttons included the hidden class, to change the visibility of the buttons. I then needed to test the buttons controlling the difficult levels to make sure it was possible to switch between all three levels, while maintaining the correct layout. The most difficult part was controlling the logic within the switch statement so I did not end up removing the hidden class from an element that did not currently have it. 
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
