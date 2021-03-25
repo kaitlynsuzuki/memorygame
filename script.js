@@ -131,12 +131,24 @@ function playSingleClue(btn){
 }
 function playClueSequence(){
   guessCounter = 0;
+  console.log("clueHoldTime " + clueHoldTime);
   let delay = nextClueWaitTime; //set delay to initial wait time
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
+  }
+  switch(difficulty){
+    case 0:
+      clueHoldTime -= 100;
+      break;
+    case 1:
+      clueHoldTime -= 40;
+      break;
+    case 2:
+      clueHoldTime -= 7;
+      break;
   }
 }
 function loseGame(){
