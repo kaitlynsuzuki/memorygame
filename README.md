@@ -4,7 +4,7 @@
 
 Submitted by: **Kaitlyn Suzuki**
 
-Time spent: **20** hours spent in total
+Time spent: **21** hours spent in total
 
 Link to project: https://memorygame1.glitch.me/
 
