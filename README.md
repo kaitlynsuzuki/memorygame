@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 * [X] More than 4 functional game buttons
 * [X] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [X] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
@@ -41,7 +41,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 ![](https://i.imgur.com/M1dOHM1.gif)
+different difficulty levels, dark mode, losing version
 ![](https://i.imgur.com/hWQcMPI.gif)
+piano version
+![](https://i.imgur.com/irO86j5.gif)
+included 3 strikes
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
