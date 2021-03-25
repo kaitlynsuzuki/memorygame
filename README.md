@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 
 ## Video Walkthrough
-![] (https://i.imgur.com/emkalKr.gif)  
+![](https://i.imgur.com/xDfNsHN.gif) 
 **Dark mode, losing message, and different difficulties**  
 ![](https://i.imgur.com/hWQcMPI.gif)   
 **Piano version**  
