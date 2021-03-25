@@ -43,7 +43,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 ![](https://i.imgur.com/M1dOHM1.gif)
+- dark mode, different levels of difficulty, losing version
 ![](https://i.imgur.com/hWQcMPI.gif)
+- piano version
+![](https://i.imgur.com/irO86j5.gif)
+- 3 strikes until the user loses
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
