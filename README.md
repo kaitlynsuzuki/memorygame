@@ -27,8 +27,8 @@ The following **optional** features are implemented:
 * [X] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
-* [X] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
@@ -48,7 +48,7 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 https://www.w3schools.com/js/js_switch.asp
-https://coolors.co/ ">https://coolors.co/
+https://coolors.co/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 https://stackoverflow.com/questions/5898656/check-if-an-element-contains-a-class-in-javascript/5898748
 https://pages.mtu.edu/~suits/notefreqs.html
