@@ -40,8 +40,6 @@ The following **additional** features are implemented:
 
 
 ## Video Walkthrough
-
- Here's a walkthrough of implemented user stories:
 ![](https://i.imgur.com/M1dOHM1.gif)
 ![](https://i.imgur.com/hWQcMPI.gif)
 
