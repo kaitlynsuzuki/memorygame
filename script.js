@@ -16,10 +16,12 @@ var difficulty = 0;
 var piano = 0;
 var map;
 var prefix = "button";
-
+var mistakes = 0;
 
 function startGame(){
     //initialize game variables
+    document.getElementById("strikes").innerHTML = "Strikes Left: 3";
+    mistakes = 0;
     progress = 0;
     gamePlaying = true;
     // swap the Start and Stop buttons
@@ -178,7 +180,14 @@ function guess(btn){
       guessCounter++;
     }
   }
+  else if (mistakes < 2){
+    mistakes++;
+    document.getElementById("strikes").innerHTML = "Strikes Left: " + (3 - mistakes);
+    playClueSequence();
+  }
   else{
+    mistakes++;
+    document.getElementById("strikes").innerHTML = "Strikes Left: " + (3 - mistakes);
     loseGame();
   }
 
