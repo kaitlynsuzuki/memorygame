@@ -40,9 +40,9 @@ The following **additional** features are implemented:
 
 
 ## Video Walkthrough
-![](https://i.imgur.com/hWQcMPI.gif)  
+![] (https://i.imgur.com/emkalKr.gif)  
 **Dark mode, losing message, and different difficulties**  
-![](https://i.imgur.com/irO86j5.gif)   
+![](https://i.imgur.com/hWQcMPI.gif)   
 **Piano version**  
 ![](https://i.imgur.com/irO86j5.gif)  
 **3 strikes until losing**  
