@@ -1,0 +1,114 @@
+/* CSS files add styling rules to your content */
+
+.lightmode {
+  font-family: helvetica, arial, sans-serif;
+  margin: 1em;
+  background-color:#f3f2f5;
+  color: #1f134a;
+}
+.darkmode{
+  font-family: helvetica, arial, sans-serif;
+  margin: 1em;
+  background-color: #1f134a;
+  color: #f3f2f5;
+}
+.selected{
+  background-color: #877C6E;
+}
+h1 {
+  font-family: verdana, arial, sans-serif; 
+  font-style: italic;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+#centeredElements{
+  text-align: center;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin-top: 20px;
+}
+.hidden{
+  display: none;
+}
+#button1{
+  background: #ffadad;
+}
+#button2{
+  background: #ffd6a5;
+}
+#button3{
+  background: #fdffb6;
+}
+#button4{
+  background: #caffbf;
+}
+#button5{
+  background: #9bf6ff;
+}
+#button6{
+  background: #bdb2ff;
+}
+#button1:active, #button1.lit{
+    background:#ba1e12;
+}
+#button2:active, #button2.lit{
+    background:#f5ab00;
+}
+#button3:active, #button3.lit{
+    background:#f0f54c;
+}
+#button4:active, #button4.lit{
+    background:#23804d;
+}
+#button5:active, #button5.lit{
+    background:#31daeb;
+}
+#button6:active, #button6.lit{
+    background:#4629f2;
+}
+.whiteKey{
+  background: #FFFFFF;
+  width: 65px;
+  height: 300px;
+
+  
+}
+.blackKey{
+  background: #000000;
+  width: 50px;
+  height: 175px;
+  position: absolute;
+  z-index: 2;
+}
+#pianoButton2{
+  left:60px;
+
+}
+#pianoButton4{
+  left:135px;
+}
+#pianoButton7{
+  left:265px;
+}
+#pianoButton9{
+  left:335px;
+}
+#pianoButton11{
+  left:405px;
+}
+#pianoButtonArea > button{
+  vertical-align: top;
+  margin: auto;
+}
+.whiteKey:active, .whiteKey.lit, .blackKey:active, .blackKey.lit{
+  background:#a8bee3;
+}
+.controls{
+  width:80px;
+  font-size: 25px;
+}

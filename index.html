@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/d524de6c9e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body id="body" class="lightmode">
+    <div id="centeredElements">
+      <h1>Memory Game!</h1>
+      <p>and so the game begins :)</p>
+      <div id="difficultyLevels">
+        <button id="easyBtn" class="darkmode selected" onclick="setSelected(0)">easy</button>
+        <button id="mediumBtn" class="darkmode" onclick="setSelected(1)">medium</button>
+        <button id="hardBtn" class="darkmode" onclick="setSelected(2)">hard</button>
+        <button id="pianoBtn" class="darkmode" onclick="setSelected(3)"><i class="material-icons">piano</i></button>
+      </div>
+      
+      <button id="startBtn" onclick="startGame()" class="darkmode controls">Start</button>
+      <button id="stopBtn" onclick="stopGame()" class="hidden darkmode controls">Stop</button>
+      <button id="darkmodeBtn" onclick="changeMode()" class="darkmode"><i class="fas fa-moon"></i></button>
+      
+      <div id="gameButtonArea">
+        <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+        <img src="https://cdn.glitch.com/0f722f03-115e-4c30-8e6a-4fbb7d8e1887%2Fheart.png?v=1616620485815" id="img1" class="hidden">
+        <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+        <img src="https://cdn.glitch.com/0f722f03-115e-4c30-8e6a-4fbb7d8e1887%2Fheart2.png?v=1616632528253" id="img2" class="hidden">
+        <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+        <img src="https://cdn.glitch.com/0f722f03-115e-4c30-8e6a-4fbb7d8e1887%2Fheart3.png?v=1616632540882" id="img3" class="hidden">
+        <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+        <img src="https://cdn.glitch.com/0f722f03-115e-4c30-8e6a-4fbb7d8e1887%2Fheart4.png?v=1616632547467" id="img4" class="hidden">
+        <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()" class="hidden"></button>
+        <img src="https://cdn.glitch.com/0f722f03-115e-4c30-8e6a-4fbb7d8e1887%2Fheart5.png?v=1616632555277" id="img5" class="hidden">
+        <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()" class="hidden"></button>
+        <img src="https://cdn.glitch.com/0f722f03-115e-4c30-8e6a-4fbb7d8e1887%2Fheart6.png?v=1616632565572" id="img6" class="hidden">
+      </div>
+    </div>
+    
+    <div id="pianoButtonArea" class="hidden">
+      <button id="pianoButton1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()" class="blackKey"></button>
+      <button id="pianoButton3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()" class="blackKey"></button>
+      <button id="pianoButton5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()" class="blackKey"></button>
+      <button id="pianoButton8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()" class="blackKey"></button>
+      <button id="pianoButton10" onclick="guess(10)" onmousedown="startTone(10)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton11" onclick="guess(11)" onmousedown="startTone(11)" onmouseup="stopTone()" class="blackKey"></button>
+      <button id="pianoButton12" onclick="guess(12)" onmousedown="startTone(12)" onmouseup="stopTone()" class="whiteKey"></button>
+      <button id="pianoButton13" onclick="guess(13)" onmousedown="startTone(13)" onmouseup="stopTone()" class="whiteKey"></button>
+    </div>
+
+  </body>
+</html>
